@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+#Created By: Mike Quinlan
+#Determines the total course grade percentage for csci101 courses based on the syllabus
+
 def check_score(score):
 	if score < 0 or score > 100:
 		return False
