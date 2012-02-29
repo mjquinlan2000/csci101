@@ -26,7 +26,7 @@ weights['Median group score on Quizzes'] = 12
 for title in weights.keys():
 	score = -1
 	while check_score(score) == False:
-		score = input("What is your {0} Grade?\n".format(title))
+		score = input("What is your {0} Grade? (0 to 100 inclusive)\n".format(title))
 		
 	current_score = (score/100.0)*weights[title]
 	
