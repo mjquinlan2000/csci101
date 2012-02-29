@@ -39,7 +39,8 @@ logline += "Course Grade:{0:.2f}\n".format(total_score)
 
 #The 'with' keyword allows for the file to be automatically closed when the block of code
 #terminates or an exception is raised. This gets rid of try-finally blocks and removes
-#all locks from the file upon a failure of the script
+#all locks from the file upon a failure of the script. Therefore, logfile.close() is not
+#needed in this case
 with open(fname, "a") as logfile:
 	logfile.write(logline)
 
