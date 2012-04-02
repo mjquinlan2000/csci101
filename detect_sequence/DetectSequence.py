@@ -15,13 +15,24 @@ for line in lines:
 		exit
 
 def detect_sequence(a, eps, numbers):
-	if numbers.count(a) < 2:
+	is_sequence = False
+	
+	if numbers.count(a) < 2 or len(numbers) == 0:
 		print "BOGUS"
 		exit
 	
 	first_a = numbers.index(a)
 	for i in range(first_a):
 		numbers.pop(0)
-	print numbers
+	
+	while not is_sequence and len(numbers) > 0:
+		if numbers[0] == a:
+			print "Something"
+		elif numbers[0] == eps:
+			if numbers[1] == a:
+				numbers.pop(0)
+		else:
+			print "One last thing"
+		numbers.pop(0)
 
 detect_sequence(3, 7, nums)
