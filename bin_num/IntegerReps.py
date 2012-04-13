@@ -3,6 +3,8 @@
 #Converts numbers to binary strings and binary strings to numbers
 #This will actually return binary strings with the MSB first
 
+import math
+
 def decimal_value(bin_list, outval, base):
 	if len(bin_list) == 0:
 		return outval
@@ -22,15 +24,28 @@ def binary_bits(int_value, out_list):
 		if len(out_list) == 0:
 			return [0]
 		else:
-			return out_list.reverse()
-	print int_value, int_value%2, int_value/2
+			out_list.reverse()
+			return out_list
 	out_list.append(int_value % 2)
 	return binary_bits(int_value/2, out_list)
 
-bin_list = [1,0,1,1,0]
+def check_input(num):
+	try:
+		num = int(num)
+		if num < 0:
+			return False
+		return True
+	except ValueError:
+		return False
+		
+uinput = "junk"
 
-x = decimal_value(bin_list, 0, 1)
+while not check_input(uinput):
+	uinput = raw_input("Please enter a positive integer greater than or equal to zero: ")
 
-aList = binary_bits(x, list())
-
-print x, aList
+num = int(uinput)
+print "You entered a", num
+bin_list = binary_bits(num, list())
+print "The binary representation (MSB first), is", bin_list
+check_val = decimal_value(bin_list, 0, 1)
+print "The double-check value is", check_val
