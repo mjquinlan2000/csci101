@@ -61,9 +61,6 @@ def inflate( codes, dictionary ) :
     words = []
     for c in codes :
 
-		print
-		print dictionary
-
 		# provide a descriptive error message on a common error in compression
 		if len(dictionary) <= c :
 			print "\n\n\n----------------------------------------------------------------------------"

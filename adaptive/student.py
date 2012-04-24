@@ -54,18 +54,16 @@ from adaptive import Main
 ###
 def deflate( words, dictionary ) :
 	codes = []
-	
-	print words
-
-	# Add initial dictionary to codes list
-	for entry in dictionary:
-		codes.append(dictionary.index(entry))
 		
 	# Add new words to dictionary
 	for word in words:
 		if word not in dictionary:
+			for letter in word:
+				codes.append(dictionary.index(str(letter)))
 			dictionary.append(word)
-		codes.append(dictionary.index(word))
+		else:
+			codes.append(dictionary.index(word))
+		codes.append(dictionary.index(' '))
 
 	# Add spaces to dictionary
 	#dictionary.append(' ')
