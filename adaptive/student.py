@@ -57,12 +57,12 @@ def deflate( words, dictionary ) :
 		
 	# Add new words to dictionary
 	for word in words:
-		if word not in dictionary:
+		if word in dictionary:
+			codes.append(dictionary.index(word))
+		else:
 			for letter in word:
 				codes.append(dictionary.index(str(letter)))
 			dictionary.append(word)
-		else:
-			codes.append(dictionary.index(word))
 		codes.append(dictionary.index(' '))
 
 	# Add spaces to dictionary
