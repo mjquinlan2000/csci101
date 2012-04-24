@@ -1,0 +1,745 @@
+setseed(seedvar,*args);args=[724]
+begin;args=('begin primitives recording for replay\n',)
+cnv.create_rectangle(*args,**kw);args=[0, 0, 32, 32];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[32, 0, 64, 32];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[64, 0, 96, 32];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[96, 0, 128, 32];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[128, 0, 160, 32];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[160, 0, 192, 32];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[192, 0, 224, 32];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[224, 0, 256, 32];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[256, 0, 288, 32];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[288, 0, 320, 32];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[320, 0, 352, 32];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[352, 0, 384, 32];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[384, 0, 416, 32];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[416, 0, 448, 32];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[448, 0, 480, 32];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[480, 0, 512, 32];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[0, 32, 32, 64];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[32, 32, 64, 64];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[64, 32, 96, 64];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[96, 32, 128, 64];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[128, 32, 160, 64];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[160, 32, 192, 64];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[192, 32, 224, 64];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[224, 32, 256, 64];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[256, 32, 288, 64];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[288, 32, 320, 64];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[320, 32, 352, 64];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[352, 32, 384, 64];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[384, 32, 416, 64];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[416, 32, 448, 64];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[448, 32, 480, 64];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[480, 32, 512, 64];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[0, 64, 32, 96];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[32, 64, 64, 96];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[64, 64, 96, 96];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[96, 64, 128, 96];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[128, 64, 160, 96];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[160, 64, 192, 96];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[192, 64, 224, 96];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[224, 64, 256, 96];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[256, 64, 288, 96];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[288, 64, 320, 96];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[320, 64, 352, 96];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[352, 64, 384, 96];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[384, 64, 416, 96];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[416, 64, 448, 96];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[448, 64, 480, 96];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[480, 64, 512, 96];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[0, 96, 32, 128];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[32, 96, 64, 128];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[64, 96, 96, 128];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[96, 96, 128, 128];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[128, 96, 160, 128];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[160, 96, 192, 128];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[192, 96, 224, 128];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[224, 96, 256, 128];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[256, 96, 288, 128];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[288, 96, 320, 128];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[320, 96, 352, 128];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[352, 96, 384, 128];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[384, 96, 416, 128];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[416, 96, 448, 128];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[448, 96, 480, 128];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[480, 96, 512, 128];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[0, 128, 32, 160];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[32, 128, 64, 160];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[64, 128, 96, 160];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[96, 128, 128, 160];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[128, 128, 160, 160];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[160, 128, 192, 160];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[192, 128, 224, 160];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[224, 128, 256, 160];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[256, 128, 288, 160];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[288, 128, 320, 160];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[320, 128, 352, 160];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[352, 128, 384, 160];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[384, 128, 416, 160];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[416, 128, 448, 160];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[448, 128, 480, 160];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[480, 128, 512, 160];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[0, 160, 32, 192];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[32, 160, 64, 192];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[64, 160, 96, 192];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[96, 160, 128, 192];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[128, 160, 160, 192];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[160, 160, 192, 192];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[192, 160, 224, 192];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[224, 160, 256, 192];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[256, 160, 288, 192];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[288, 160, 320, 192];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[320, 160, 352, 192];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[352, 160, 384, 192];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[384, 160, 416, 192];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[416, 160, 448, 192];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[448, 160, 480, 192];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[480, 160, 512, 192];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[0, 192, 32, 224];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[32, 192, 64, 224];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[64, 192, 96, 224];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[96, 192, 128, 224];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[128, 192, 160, 224];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[160, 192, 192, 224];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[192, 192, 224, 224];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[224, 192, 256, 224];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[256, 192, 288, 224];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[288, 192, 320, 224];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[320, 192, 352, 224];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[352, 192, 384, 224];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[384, 192, 416, 224];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[416, 192, 448, 224];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[448, 192, 480, 224];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[480, 192, 512, 224];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[0, 224, 32, 256];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[32, 224, 64, 256];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[64, 224, 96, 256];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[96, 224, 128, 256];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[128, 224, 160, 256];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[160, 224, 192, 256];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[192, 224, 224, 256];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[224, 224, 256, 256];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[256, 224, 288, 256];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[288, 224, 320, 256];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[320, 224, 352, 256];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[352, 224, 384, 256];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[384, 224, 416, 256];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[416, 224, 448, 256];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[448, 224, 480, 256];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[480, 224, 512, 256];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[0, 256, 32, 288];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[32, 256, 64, 288];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[64, 256, 96, 288];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[96, 256, 128, 288];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[128, 256, 160, 288];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[160, 256, 192, 288];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[192, 256, 224, 288];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[224, 256, 256, 288];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[256, 256, 288, 288];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[288, 256, 320, 288];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[320, 256, 352, 288];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[352, 256, 384, 288];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[384, 256, 416, 288];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[416, 256, 448, 288];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[448, 256, 480, 288];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[480, 256, 512, 288];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[0, 288, 32, 320];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[32, 288, 64, 320];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[64, 288, 96, 320];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[96, 288, 128, 320];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[128, 288, 160, 320];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[160, 288, 192, 320];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[192, 288, 224, 320];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[224, 288, 256, 320];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[256, 288, 288, 320];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[288, 288, 320, 320];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[320, 288, 352, 320];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[352, 288, 384, 320];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[384, 288, 416, 320];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[416, 288, 448, 320];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[448, 288, 480, 320];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[480, 288, 512, 320];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[0, 320, 32, 352];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[32, 320, 64, 352];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[64, 320, 96, 352];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[96, 320, 128, 352];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[128, 320, 160, 352];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[160, 320, 192, 352];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[192, 320, 224, 352];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[224, 320, 256, 352];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[256, 320, 288, 352];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[288, 320, 320, 352];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[320, 320, 352, 352];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[352, 320, 384, 352];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[384, 320, 416, 352];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[416, 320, 448, 352];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[448, 320, 480, 352];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[480, 320, 512, 352];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[0, 352, 32, 384];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[32, 352, 64, 384];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[64, 352, 96, 384];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[96, 352, 128, 384];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[128, 352, 160, 384];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[160, 352, 192, 384];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[192, 352, 224, 384];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[224, 352, 256, 384];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[256, 352, 288, 384];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[288, 352, 320, 384];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[320, 352, 352, 384];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[352, 352, 384, 384];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[384, 352, 416, 384];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[416, 352, 448, 384];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[448, 352, 480, 384];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[480, 352, 512, 384];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[0, 384, 32, 416];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[32, 384, 64, 416];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[64, 384, 96, 416];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[96, 384, 128, 416];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[128, 384, 160, 416];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[160, 384, 192, 416];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[192, 384, 224, 416];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[224, 384, 256, 416];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[256, 384, 288, 416];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[288, 384, 320, 416];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[320, 384, 352, 416];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[352, 384, 384, 416];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[384, 384, 416, 416];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[416, 384, 448, 416];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[448, 384, 480, 416];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[480, 384, 512, 416];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[0, 416, 32, 448];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[32, 416, 64, 448];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[64, 416, 96, 448];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[96, 416, 128, 448];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[128, 416, 160, 448];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[160, 416, 192, 448];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[192, 416, 224, 448];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[224, 416, 256, 448];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[256, 416, 288, 448];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[288, 416, 320, 448];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[320, 416, 352, 448];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[352, 416, 384, 448];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[384, 416, 416, 448];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[416, 416, 448, 448];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[448, 416, 480, 448];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[480, 416, 512, 448];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[0, 448, 32, 480];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[32, 448, 64, 480];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[64, 448, 96, 480];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[96, 448, 128, 480];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[128, 448, 160, 480];kw={'outline': 'black', 'fill': 'black'}
+cnv.create_rectangle(*args,**kw);args=[160, 448, 192, 480];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[192, 448, 224, 480];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[224, 448, 256, 480];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[256, 448, 288, 480];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[288, 448, 320, 480];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[320, 448, 352, 480];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[352, 448, 384, 480];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[384, 448, 416, 480];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[416, 448, 448, 480];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[448, 448, 480, 480];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[480, 448, 512, 480];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[0, 480, 32, 512];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[32, 480, 64, 512];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[64, 480, 96, 512];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[96, 480, 128, 512];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[128, 480, 160, 512];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[160, 480, 192, 512];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[192, 480, 224, 512];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[224, 480, 256, 512];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[256, 480, 288, 512];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[288, 480, 320, 512];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[320, 480, 352, 512];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[352, 480, 384, 512];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[384, 480, 416, 512];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[416, 480, 448, 512];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[448, 480, 480, 512];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[480, 480, 512, 512];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 100.0]
+removedividerlines(cnv, *args);args=[9];
+cnv.update_idletasks()
+cnv.create_line(*args,**kw);args=[0, 256, 512, 256];kw={'width': 2, 'tag': 'q-8', 'fill': 'black'}
+cnv.create_line(*args,**kw);args=[256, 0, 256, 512];kw={'width': 2, 'tag': 'q-8', 'fill': 'black'}
+cnv.create_rectangle(*args,**kw);args=[224, 224, 256, 256];kw={'outline': '#cc0000', 'fill': '#cc0000'}
+cnv.create_rectangle(*args,**kw);args=[256, 224, 288, 256];kw={'outline': '#cc0000', 'fill': '#cc0000'}
+cnv.create_rectangle(*args,**kw);args=[256, 256, 288, 288];kw={'outline': '#cc0000', 'fill': '#cc0000'}
+cnv.create_rectangle(*args,**kw);args=[224, 256, 256, 288];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+removedividerlines(cnv, *args);args=[5];
+cnv.update_idletasks()
+cnv.create_line(*args,**kw);args=[0, 128, 256, 128];kw={'width': 2, 'tag': 'q-4', 'fill': 'black'}
+cnv.create_line(*args,**kw);args=[128, 0, 128, 256];kw={'width': 2, 'tag': 'q-4', 'fill': 'black'}
+cnv.create_rectangle(*args,**kw);args=[96, 96, 128, 128];kw={'outline': '#990000', 'fill': '#990000'}
+cnv.create_rectangle(*args,**kw);args=[128, 96, 160, 128];kw={'outline': '#990000', 'fill': '#990000'}
+cnv.create_rectangle(*args,**kw);args=[128, 128, 160, 160];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[96, 128, 128, 160];kw={'outline': '#990000', 'fill': '#990000'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+removedividerlines(cnv, *args);args=[3];
+cnv.update_idletasks()
+cnv.create_line(*args,**kw);args=[0, 64, 128, 64];kw={'width': 2, 'tag': 'q-2', 'fill': 'black'}
+cnv.create_line(*args,**kw);args=[64, 0, 64, 128];kw={'width': 2, 'tag': 'q-2', 'fill': 'black'}
+cnv.create_rectangle(*args,**kw);args=[32, 32, 64, 64];kw={'outline': '#660000', 'fill': '#660000'}
+cnv.create_rectangle(*args,**kw);args=[64, 32, 96, 64];kw={'outline': '#660000', 'fill': '#660000'}
+cnv.create_rectangle(*args,**kw);args=[64, 64, 96, 96];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[32, 64, 64, 96];kw={'outline': '#660000', 'fill': '#660000'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[0, 0, 32, 32];kw={'outline': '#330000', 'fill': '#330000'}
+cnv.create_rectangle(*args,**kw);args=[32, 0, 64, 32];kw={'outline': '#330000', 'fill': '#330000'}
+cnv.create_rectangle(*args,**kw);args=[0, 32, 32, 64];kw={'outline': '#330000', 'fill': '#330000'}
+cnv.create_line(*args,**kw);args=[0, 0, 0, 32];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[64, 0, 64, 32];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[0, 32, 0, 64];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[32, 32, 32, 64];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[0, 0, 32, 0];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[32, 0, 64, 0];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[32, 32, 64, 32];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[0, 64, 32, 64];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[64, 64, 96, 96];kw={'outline': '#003300', 'fill': '#003300'}
+cnv.create_rectangle(*args,**kw);args=[96, 64, 128, 96];kw={'outline': '#003300', 'fill': '#003300'}
+cnv.create_rectangle(*args,**kw);args=[64, 96, 96, 128];kw={'outline': '#003300', 'fill': '#003300'}
+cnv.create_line(*args,**kw);args=[64, 64, 64, 96];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[128, 64, 128, 96];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[64, 96, 64, 128];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[96, 96, 96, 128];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[64, 64, 96, 64];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[96, 64, 128, 64];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[96, 96, 128, 96];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[64, 128, 96, 128];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[0, 64, 32, 96];kw={'outline': '#006600', 'fill': '#006600'}
+cnv.create_rectangle(*args,**kw);args=[0, 96, 32, 128];kw={'outline': '#006600', 'fill': '#006600'}
+cnv.create_rectangle(*args,**kw);args=[32, 96, 64, 128];kw={'outline': '#006600', 'fill': '#006600'}
+cnv.create_line(*args,**kw);args=[0, 64, 0, 96];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[32, 64, 32, 96];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[0, 96, 0, 128];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[64, 96, 64, 128];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[0, 64, 32, 64];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[32, 96, 64, 96];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[0, 128, 32, 128];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[32, 128, 64, 128];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+removedividerlines(cnv, *args);args=[3];
+cnv.update_idletasks()
+cnv.create_line(*args,**kw);args=[128, 192, 256, 192];kw={'width': 2, 'tag': 'q-2', 'fill': 'black'}
+cnv.create_line(*args,**kw);args=[192, 128, 192, 256];kw={'width': 2, 'tag': 'q-2', 'fill': 'black'}
+cnv.create_rectangle(*args,**kw);args=[160, 160, 192, 192];kw={'outline': '#009900', 'fill': '#009900'}
+cnv.create_rectangle(*args,**kw);args=[192, 160, 224, 192];kw={'outline': '#009900', 'fill': '#009900'}
+cnv.create_rectangle(*args,**kw);args=[192, 192, 224, 224];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[160, 192, 192, 224];kw={'outline': '#009900', 'fill': '#009900'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[128, 128, 160, 160];kw={'outline': '#00cc00', 'fill': '#00cc00'}
+cnv.create_rectangle(*args,**kw);args=[160, 128, 192, 160];kw={'outline': '#00cc00', 'fill': '#00cc00'}
+cnv.create_rectangle(*args,**kw);args=[128, 160, 160, 192];kw={'outline': '#00cc00', 'fill': '#00cc00'}
+cnv.create_line(*args,**kw);args=[128, 128, 128, 160];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[192, 128, 192, 160];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[128, 160, 128, 192];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[160, 160, 160, 192];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[128, 128, 160, 128];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[160, 128, 192, 128];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[160, 160, 192, 160];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[128, 192, 160, 192];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[192, 192, 224, 224];kw={'outline': '#00ff00', 'fill': '#00ff00'}
+cnv.create_rectangle(*args,**kw);args=[224, 192, 256, 224];kw={'outline': '#00ff00', 'fill': '#00ff00'}
+cnv.create_rectangle(*args,**kw);args=[192, 224, 224, 256];kw={'outline': '#00ff00', 'fill': '#00ff00'}
+cnv.create_line(*args,**kw);args=[192, 192, 192, 224];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[256, 192, 256, 224];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[192, 224, 192, 256];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[224, 224, 224, 256];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[192, 192, 224, 192];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[224, 192, 256, 192];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[224, 224, 256, 224];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[192, 256, 224, 256];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[128, 192, 160, 224];kw={'outline': '#00ff33', 'fill': '#00ff33'}
+cnv.create_rectangle(*args,**kw);args=[128, 224, 160, 256];kw={'outline': '#00ff33', 'fill': '#00ff33'}
+cnv.create_rectangle(*args,**kw);args=[160, 224, 192, 256];kw={'outline': '#00ff33', 'fill': '#00ff33'}
+cnv.create_line(*args,**kw);args=[128, 192, 128, 224];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[160, 192, 160, 224];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[128, 224, 128, 256];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[192, 224, 192, 256];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[128, 192, 160, 192];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[160, 224, 192, 224];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[128, 256, 160, 256];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[160, 256, 192, 256];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+removedividerlines(cnv, *args);args=[3];
+cnv.update_idletasks()
+cnv.create_line(*args,**kw);args=[0, 192, 128, 192];kw={'width': 2, 'tag': 'q-2', 'fill': 'black'}
+cnv.create_line(*args,**kw);args=[64, 128, 64, 256];kw={'width': 2, 'tag': 'q-2', 'fill': 'black'}
+cnv.create_rectangle(*args,**kw);args=[32, 160, 64, 192];kw={'outline': '#00ff66', 'fill': '#00ff66'}
+cnv.create_rectangle(*args,**kw);args=[64, 160, 96, 192];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[64, 192, 96, 224];kw={'outline': '#00ff66', 'fill': '#00ff66'}
+cnv.create_rectangle(*args,**kw);args=[32, 192, 64, 224];kw={'outline': '#00ff66', 'fill': '#00ff66'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[0, 128, 32, 160];kw={'outline': '#00ff99', 'fill': '#00ff99'}
+cnv.create_rectangle(*args,**kw);args=[32, 128, 64, 160];kw={'outline': '#00ff99', 'fill': '#00ff99'}
+cnv.create_rectangle(*args,**kw);args=[0, 160, 32, 192];kw={'outline': '#00ff99', 'fill': '#00ff99'}
+cnv.create_line(*args,**kw);args=[0, 128, 0, 160];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[64, 128, 64, 160];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[0, 160, 0, 192];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[32, 160, 32, 192];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[0, 128, 32, 128];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[32, 128, 64, 128];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[32, 160, 64, 160];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[0, 192, 32, 192];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[96, 192, 128, 224];kw={'outline': '#00ffcc', 'fill': '#00ffcc'}
+cnv.create_rectangle(*args,**kw);args=[64, 224, 96, 256];kw={'outline': '#00ffcc', 'fill': '#00ffcc'}
+cnv.create_rectangle(*args,**kw);args=[96, 224, 128, 256];kw={'outline': '#00ffcc', 'fill': '#00ffcc'}
+cnv.create_line(*args,**kw);args=[96, 192, 96, 224];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[128, 192, 128, 224];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[64, 224, 64, 256];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[128, 224, 128, 256];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[96, 192, 128, 192];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[64, 224, 96, 224];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[64, 256, 96, 256];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[96, 256, 128, 256];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[0, 192, 32, 224];kw={'outline': '#00ffff', 'fill': '#00ffff'}
+cnv.create_rectangle(*args,**kw);args=[0, 224, 32, 256];kw={'outline': '#00ffff', 'fill': '#00ffff'}
+cnv.create_rectangle(*args,**kw);args=[32, 224, 64, 256];kw={'outline': '#00ffff', 'fill': '#00ffff'}
+cnv.create_line(*args,**kw);args=[0, 192, 0, 224];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[32, 192, 32, 224];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[0, 224, 0, 256];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[64, 224, 64, 256];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[0, 192, 32, 192];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[32, 224, 64, 224];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[0, 256, 32, 256];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[32, 256, 64, 256];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+removedividerlines(cnv, *args);args=[5];
+cnv.update_idletasks()
+cnv.create_line(*args,**kw);args=[256, 384, 512, 384];kw={'width': 2, 'tag': 'q-4', 'fill': 'black'}
+cnv.create_line(*args,**kw);args=[384, 256, 384, 512];kw={'width': 2, 'tag': 'q-4', 'fill': 'black'}
+cnv.create_rectangle(*args,**kw);args=[352, 352, 384, 384];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[384, 352, 416, 384];kw={'outline': '#33ffff', 'fill': '#33ffff'}
+cnv.create_rectangle(*args,**kw);args=[384, 384, 416, 416];kw={'outline': '#33ffff', 'fill': '#33ffff'}
+cnv.create_rectangle(*args,**kw);args=[352, 384, 384, 416];kw={'outline': '#33ffff', 'fill': '#33ffff'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+removedividerlines(cnv, *args);args=[3];
+cnv.update_idletasks()
+cnv.create_line(*args,**kw);args=[256, 320, 384, 320];kw={'width': 2, 'tag': 'q-2', 'fill': 'black'}
+cnv.create_line(*args,**kw);args=[320, 256, 320, 384];kw={'width': 2, 'tag': 'q-2', 'fill': 'black'}
+cnv.create_rectangle(*args,**kw);args=[288, 288, 320, 320];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[320, 288, 352, 320];kw={'outline': '#66ffff', 'fill': '#66ffff'}
+cnv.create_rectangle(*args,**kw);args=[320, 320, 352, 352];kw={'outline': '#66ffff', 'fill': '#66ffff'}
+cnv.create_rectangle(*args,**kw);args=[288, 320, 320, 352];kw={'outline': '#66ffff', 'fill': '#66ffff'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[288, 256, 320, 288];kw={'outline': '#99ffff', 'fill': '#99ffff'}
+cnv.create_rectangle(*args,**kw);args=[256, 288, 288, 320];kw={'outline': '#99ffff', 'fill': '#99ffff'}
+cnv.create_rectangle(*args,**kw);args=[288, 288, 320, 320];kw={'outline': '#99ffff', 'fill': '#99ffff'}
+cnv.create_line(*args,**kw);args=[288, 256, 288, 288];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[320, 256, 320, 288];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[256, 288, 256, 320];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[320, 288, 320, 320];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[288, 256, 320, 256];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[256, 288, 288, 288];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[256, 320, 288, 320];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[288, 320, 320, 320];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[352, 320, 384, 352];kw={'outline': '#ccffff', 'fill': '#ccffff'}
+cnv.create_rectangle(*args,**kw);args=[320, 352, 352, 384];kw={'outline': '#ccffff', 'fill': '#ccffff'}
+cnv.create_rectangle(*args,**kw);args=[352, 352, 384, 384];kw={'outline': '#ccffff', 'fill': '#ccffff'}
+cnv.create_line(*args,**kw);args=[352, 320, 352, 352];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[384, 320, 384, 352];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[320, 352, 320, 384];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[384, 352, 384, 384];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[352, 320, 384, 320];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[320, 352, 352, 352];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[320, 384, 352, 384];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[352, 384, 384, 384];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[256, 320, 288, 352];kw={'outline': '#ffffff', 'fill': '#ffffff'}
+cnv.create_rectangle(*args,**kw);args=[256, 352, 288, 384];kw={'outline': '#ffffff', 'fill': '#ffffff'}
+cnv.create_rectangle(*args,**kw);args=[288, 352, 320, 384];kw={'outline': '#ffffff', 'fill': '#ffffff'}
+cnv.create_line(*args,**kw);args=[256, 320, 256, 352];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[288, 320, 288, 352];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[256, 352, 256, 384];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[320, 352, 320, 384];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[256, 320, 288, 320];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[288, 352, 320, 352];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[256, 384, 288, 384];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[288, 384, 320, 384];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+removedividerlines(cnv, *args);args=[3];
+cnv.update_idletasks()
+cnv.create_line(*args,**kw);args=[384, 448, 512, 448];kw={'width': 2, 'tag': 'q-2', 'fill': 'black'}
+cnv.create_line(*args,**kw);args=[448, 384, 448, 512];kw={'width': 2, 'tag': 'q-2', 'fill': 'black'}
+cnv.create_rectangle(*args,**kw);args=[416, 416, 448, 448];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[448, 416, 480, 448];kw={'outline': '#ffccff', 'fill': '#ffccff'}
+cnv.create_rectangle(*args,**kw);args=[448, 448, 480, 480];kw={'outline': '#ffccff', 'fill': '#ffccff'}
+cnv.create_rectangle(*args,**kw);args=[416, 448, 448, 480];kw={'outline': '#ffccff', 'fill': '#ffccff'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[416, 384, 448, 416];kw={'outline': '#ff99ff', 'fill': '#ff99ff'}
+cnv.create_rectangle(*args,**kw);args=[384, 416, 416, 448];kw={'outline': '#ff99ff', 'fill': '#ff99ff'}
+cnv.create_rectangle(*args,**kw);args=[416, 416, 448, 448];kw={'outline': '#ff99ff', 'fill': '#ff99ff'}
+cnv.create_line(*args,**kw);args=[416, 384, 416, 416];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[448, 384, 448, 416];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[384, 416, 384, 448];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[448, 416, 448, 448];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[416, 384, 448, 384];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[384, 416, 416, 416];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[384, 448, 416, 448];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[416, 448, 448, 448];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[480, 448, 512, 480];kw={'outline': '#ff66ff', 'fill': '#ff66ff'}
+cnv.create_rectangle(*args,**kw);args=[448, 480, 480, 512];kw={'outline': '#ff66ff', 'fill': '#ff66ff'}
+cnv.create_rectangle(*args,**kw);args=[480, 480, 512, 512];kw={'outline': '#ff66ff', 'fill': '#ff66ff'}
+cnv.create_line(*args,**kw);args=[480, 448, 480, 480];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[512, 448, 512, 480];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[448, 480, 448, 512];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[512, 480, 512, 512];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[480, 448, 512, 448];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[448, 480, 480, 480];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[448, 512, 480, 512];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[480, 512, 512, 512];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[384, 448, 416, 480];kw={'outline': '#ff33ff', 'fill': '#ff33ff'}
+cnv.create_rectangle(*args,**kw);args=[384, 480, 416, 512];kw={'outline': '#ff33ff', 'fill': '#ff33ff'}
+cnv.create_rectangle(*args,**kw);args=[416, 480, 448, 512];kw={'outline': '#ff33ff', 'fill': '#ff33ff'}
+cnv.create_line(*args,**kw);args=[384, 448, 384, 480];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[416, 448, 416, 480];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[384, 480, 384, 512];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[448, 480, 448, 512];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[384, 448, 416, 448];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[416, 480, 448, 480];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[384, 512, 416, 512];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[416, 512, 448, 512];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+removedividerlines(cnv, *args);args=[3];
+cnv.update_idletasks()
+cnv.create_line(*args,**kw);args=[256, 448, 384, 448];kw={'width': 2, 'tag': 'q-2', 'fill': 'black'}
+cnv.create_line(*args,**kw);args=[320, 384, 320, 512];kw={'width': 2, 'tag': 'q-2', 'fill': 'black'}
+cnv.create_rectangle(*args,**kw);args=[288, 416, 320, 448];kw={'outline': '#ff00ff', 'fill': '#ff00ff'}
+cnv.create_rectangle(*args,**kw);args=[320, 416, 352, 448];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[320, 448, 352, 480];kw={'outline': '#ff00ff', 'fill': '#ff00ff'}
+cnv.create_rectangle(*args,**kw);args=[288, 448, 320, 480];kw={'outline': '#ff00ff', 'fill': '#ff00ff'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[256, 384, 288, 416];kw={'outline': '#ff00cc', 'fill': '#ff00cc'}
+cnv.create_rectangle(*args,**kw);args=[288, 384, 320, 416];kw={'outline': '#ff00cc', 'fill': '#ff00cc'}
+cnv.create_rectangle(*args,**kw);args=[256, 416, 288, 448];kw={'outline': '#ff00cc', 'fill': '#ff00cc'}
+cnv.create_line(*args,**kw);args=[256, 384, 256, 416];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[320, 384, 320, 416];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[256, 416, 256, 448];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[288, 416, 288, 448];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[256, 384, 288, 384];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[288, 384, 320, 384];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[288, 416, 320, 416];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[256, 448, 288, 448];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[352, 448, 384, 480];kw={'outline': '#ff0099', 'fill': '#ff0099'}
+cnv.create_rectangle(*args,**kw);args=[320, 480, 352, 512];kw={'outline': '#ff0099', 'fill': '#ff0099'}
+cnv.create_rectangle(*args,**kw);args=[352, 480, 384, 512];kw={'outline': '#ff0099', 'fill': '#ff0099'}
+cnv.create_line(*args,**kw);args=[352, 448, 352, 480];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[384, 448, 384, 480];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[320, 480, 320, 512];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[384, 480, 384, 512];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[352, 448, 384, 448];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[320, 480, 352, 480];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[320, 512, 352, 512];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[352, 512, 384, 512];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[256, 448, 288, 480];kw={'outline': '#ff0066', 'fill': '#ff0066'}
+cnv.create_rectangle(*args,**kw);args=[256, 480, 288, 512];kw={'outline': '#ff0066', 'fill': '#ff0066'}
+cnv.create_rectangle(*args,**kw);args=[288, 480, 320, 512];kw={'outline': '#ff0066', 'fill': '#ff0066'}
+cnv.create_line(*args,**kw);args=[256, 448, 256, 480];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[288, 448, 288, 480];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[256, 480, 256, 512];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[320, 480, 320, 512];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[256, 448, 288, 448];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[288, 480, 320, 480];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[256, 512, 288, 512];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[288, 512, 320, 512];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+removedividerlines(cnv, *args);args=[5];
+cnv.update_idletasks()
+cnv.create_line(*args,**kw);args=[0, 384, 256, 384];kw={'width': 2, 'tag': 'q-4', 'fill': 'black'}
+cnv.create_line(*args,**kw);args=[128, 256, 128, 512];kw={'width': 2, 'tag': 'q-4', 'fill': 'black'}
+cnv.create_rectangle(*args,**kw);args=[96, 352, 128, 384];kw={'outline': '#ff0033', 'fill': '#ff0033'}
+cnv.create_rectangle(*args,**kw);args=[128, 352, 160, 384];kw={'outline': '#ff0033', 'fill': '#ff0033'}
+cnv.create_rectangle(*args,**kw);args=[128, 384, 160, 416];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[96, 384, 128, 416];kw={'outline': '#ff0033', 'fill': '#ff0033'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+removedividerlines(cnv, *args);args=[3];
+cnv.update_idletasks()
+cnv.create_line(*args,**kw);args=[0, 320, 128, 320];kw={'width': 2, 'tag': 'q-2', 'fill': 'black'}
+cnv.create_line(*args,**kw);args=[64, 256, 64, 384];kw={'width': 2, 'tag': 'q-2', 'fill': 'black'}
+cnv.create_rectangle(*args,**kw);args=[32, 288, 64, 320];kw={'outline': '#ff0000', 'fill': '#ff0000'}
+cnv.create_rectangle(*args,**kw);args=[64, 288, 96, 320];kw={'outline': '#ff0000', 'fill': '#ff0000'}
+cnv.create_rectangle(*args,**kw);args=[64, 320, 96, 352];kw={'outline': '#9db86b', 'fill': '#9db86b'}
+cnv.create_rectangle(*args,**kw);args=[32, 320, 64, 352];kw={'outline': '#ff0000', 'fill': '#ff0000'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[0, 256, 32, 288];kw={'outline': '#cc0000', 'fill': '#cc0000'}
+cnv.create_rectangle(*args,**kw);args=[32, 256, 64, 288];kw={'outline': '#cc0000', 'fill': '#cc0000'}
+cnv.create_rectangle(*args,**kw);args=[0, 288, 32, 320];kw={'outline': '#cc0000', 'fill': '#cc0000'}
+cnv.create_line(*args,**kw);args=[0, 256, 0, 288];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[64, 256, 64, 288];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[0, 288, 0, 320];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[32, 288, 32, 320];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[0, 256, 32, 256];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[32, 256, 64, 256];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[32, 288, 64, 288];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[0, 320, 32, 320];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[64, 320, 96, 352];kw={'outline': '#990000', 'fill': '#990000'}
+cnv.create_rectangle(*args,**kw);args=[96, 320, 128, 352];kw={'outline': '#990000', 'fill': '#990000'}
+cnv.create_rectangle(*args,**kw);args=[64, 352, 96, 384];kw={'outline': '#990000', 'fill': '#990000'}
+cnv.create_line(*args,**kw);args=[64, 320, 64, 352];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[128, 320, 128, 352];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[64, 352, 64, 384];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[96, 352, 96, 384];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[64, 320, 96, 320];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[96, 320, 128, 320];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[96, 352, 128, 352];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[64, 384, 96, 384];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[0, 320, 32, 352];kw={'outline': '#660000', 'fill': '#660000'}
+cnv.create_rectangle(*args,**kw);args=[0, 352, 32, 384];kw={'outline': '#660000', 'fill': '#660000'}
+cnv.create_rectangle(*args,**kw);args=[32, 352, 64, 384];kw={'outline': '#660000', 'fill': '#660000'}
+cnv.create_line(*args,**kw);args=[0, 320, 0, 352];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[32, 320, 32, 352];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[0, 352, 0, 384];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[64, 352, 64, 384];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[0, 320, 32, 320];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[32, 352, 64, 352];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[0, 384, 32, 384];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[32, 384, 64, 384];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+removedividerlines(cnv, *args);args=[3];
+cnv.update_idletasks()
+cnv.create_line(*args,**kw);args=[128, 448, 256, 448];kw={'width': 2, 'tag': 'q-2', 'fill': 'black'}
+cnv.create_line(*args,**kw);args=[192, 384, 192, 512];kw={'width': 2, 'tag': 'q-2', 'fill': 'black'}
+cnv.create_rectangle(*args,**kw);args=[160, 416, 192, 448];kw={'outline': '#330000', 'fill': '#330000'}
+cnv.create_rectangle(*args,**kw);args=[192, 416, 224, 448];kw={'outline': '#330000', 'fill': '#330000'}
+cnv.create_rectangle(*args,**kw);args=[192, 448, 224, 480];kw={'outline': '#330000', 'fill': '#330000'}
+cnv.create_rectangle(*args,**kw);args=[160, 448, 192, 480];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[128, 384, 160, 416];kw={'outline': '#003300', 'fill': '#003300'}
+cnv.create_rectangle(*args,**kw);args=[160, 384, 192, 416];kw={'outline': '#003300', 'fill': '#003300'}
+cnv.create_rectangle(*args,**kw);args=[128, 416, 160, 448];kw={'outline': '#003300', 'fill': '#003300'}
+cnv.create_line(*args,**kw);args=[128, 384, 128, 416];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[192, 384, 192, 416];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[128, 416, 128, 448];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[160, 416, 160, 448];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[128, 384, 160, 384];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[160, 384, 192, 384];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[160, 416, 192, 416];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[128, 448, 160, 448];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[224, 448, 256, 480];kw={'outline': '#006600', 'fill': '#006600'}
+cnv.create_rectangle(*args,**kw);args=[192, 480, 224, 512];kw={'outline': '#006600', 'fill': '#006600'}
+cnv.create_rectangle(*args,**kw);args=[224, 480, 256, 512];kw={'outline': '#006600', 'fill': '#006600'}
+cnv.create_line(*args,**kw);args=[224, 448, 224, 480];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[256, 448, 256, 480];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[192, 480, 192, 512];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[256, 480, 256, 512];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[224, 448, 256, 448];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[192, 480, 224, 480];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[192, 512, 224, 512];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[224, 512, 256, 512];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[160, 448, 192, 480];kw={'outline': '#009900', 'fill': '#009900'}
+cnv.create_rectangle(*args,**kw);args=[128, 480, 160, 512];kw={'outline': '#009900', 'fill': '#009900'}
+cnv.create_rectangle(*args,**kw);args=[160, 480, 192, 512];kw={'outline': '#009900', 'fill': '#009900'}
+cnv.create_line(*args,**kw);args=[160, 448, 160, 480];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[192, 448, 192, 480];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[128, 480, 128, 512];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[192, 480, 192, 512];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[160, 448, 192, 448];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[128, 480, 160, 480];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[128, 512, 160, 512];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[160, 512, 192, 512];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+removedividerlines(cnv, *args);args=[3];
+cnv.update_idletasks()
+cnv.create_line(*args,**kw);args=[0, 448, 128, 448];kw={'width': 2, 'tag': 'q-2', 'fill': 'black'}
+cnv.create_line(*args,**kw);args=[64, 384, 64, 512];kw={'width': 2, 'tag': 'q-2', 'fill': 'black'}
+cnv.create_rectangle(*args,**kw);args=[32, 416, 64, 448];kw={'outline': '#00cc00', 'fill': '#00cc00'}
+cnv.create_rectangle(*args,**kw);args=[64, 416, 96, 448];kw={'outline': '#b8920a', 'fill': '#b8920a'}
+cnv.create_rectangle(*args,**kw);args=[64, 448, 96, 480];kw={'outline': '#00cc00', 'fill': '#00cc00'}
+cnv.create_rectangle(*args,**kw);args=[32, 448, 64, 480];kw={'outline': '#00cc00', 'fill': '#00cc00'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[0, 384, 32, 416];kw={'outline': '#00ff00', 'fill': '#00ff00'}
+cnv.create_rectangle(*args,**kw);args=[32, 384, 64, 416];kw={'outline': '#00ff00', 'fill': '#00ff00'}
+cnv.create_rectangle(*args,**kw);args=[0, 416, 32, 448];kw={'outline': '#00ff00', 'fill': '#00ff00'}
+cnv.create_line(*args,**kw);args=[0, 384, 0, 416];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[64, 384, 64, 416];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[0, 416, 0, 448];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[32, 416, 32, 448];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[0, 384, 32, 384];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[32, 384, 64, 384];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[32, 416, 64, 416];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[0, 448, 32, 448];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[96, 448, 128, 480];kw={'outline': '#00ff33', 'fill': '#00ff33'}
+cnv.create_rectangle(*args,**kw);args=[64, 480, 96, 512];kw={'outline': '#00ff33', 'fill': '#00ff33'}
+cnv.create_rectangle(*args,**kw);args=[96, 480, 128, 512];kw={'outline': '#00ff33', 'fill': '#00ff33'}
+cnv.create_line(*args,**kw);args=[96, 448, 96, 480];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[128, 448, 128, 480];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[64, 480, 64, 512];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[128, 480, 128, 512];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[96, 448, 128, 448];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[64, 480, 96, 480];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[64, 512, 96, 512];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[96, 512, 128, 512];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+cnv.create_rectangle(*args,**kw);args=[0, 448, 32, 480];kw={'outline': '#00ff66', 'fill': '#00ff66'}
+cnv.create_rectangle(*args,**kw);args=[0, 480, 32, 512];kw={'outline': '#00ff66', 'fill': '#00ff66'}
+cnv.create_rectangle(*args,**kw);args=[32, 480, 64, 512];kw={'outline': '#00ff66', 'fill': '#00ff66'}
+cnv.create_line(*args,**kw);args=[0, 448, 0, 480];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[32, 448, 32, 480];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[0, 480, 0, 512];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[64, 480, 64, 512];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[0, 448, 32, 448];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[32, 480, 64, 480];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[0, 512, 32, 512];kw={'fill': 'black'}
+cnv.create_line(*args,**kw);args=[32, 512, 64, 512];kw={'fill': 'black'}
+cnv.update_idletasks()
+delaymsecs(delay,*args);args=[1, 1000.0]
+removedividerlines(cnv, *args);args=[16];
+cnv.update_idletasks()
+end;args=('end primitives recording for replay\n',)
+
