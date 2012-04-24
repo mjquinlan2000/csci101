@@ -55,7 +55,7 @@ from adaptive import Main
 def deflate( words, dictionary ) :
 	codes = []
 		
-	# Add new words to dictionary
+	# Only 7 lines of code... Winning
 	for word in words:
 		if word in dictionary:
 			codes.append(dictionary.index(word))
@@ -64,10 +64,6 @@ def deflate( words, dictionary ) :
 				codes.append(dictionary.index(str(letter)))
 			dictionary.append(word)
 		codes.append(dictionary.index(' '))
-
-	# Add spaces to dictionary
-	#dictionary.append(' ')
-	#codes.append(dictionary.index(' '))
 
 	return codes, dictionary
 
