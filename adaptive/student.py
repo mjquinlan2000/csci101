@@ -53,11 +53,25 @@ from adaptive import Main
 # dictionary after compression is finished.
 ###
 def deflate( words, dictionary ) :
-    codes = []
+	codes = []
+	
+	print words
 
-    # put your compression logic here
+	# Add initial dictionary to codes list
+	for entry in dictionary:
+		codes.append(dictionary.index(entry))
+		
+	# Add new words to dictionary
+	for word in words:
+		if word not in dictionary:
+			dictionary.append(word)
+		codes.append(dictionary.index(word))
 
-    return codes, dictionary
+	# Add spaces to dictionary
+	#dictionary.append(' ')
+	#codes.append(dictionary.index(' '))
+
+	return codes, dictionary
 
 
 

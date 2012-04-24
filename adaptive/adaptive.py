@@ -61,33 +61,36 @@ def inflate( codes, dictionary ) :
     words = []
     for c in codes :
 
-        # provide a descriptive error message on a common error in compression
-        if len(dictionary) <= c :
-            print "\n\n\n----------------------------------------------------------------------------"
-            print "Uh-oh.  The compression codes say use the word for code %d" % c
-            print "but the DE-compression dictionary has codes only up to %d right now!" % (len(dictionary)-1,)
-            print
-            print "Did you forget to output a newly discovered word as its primitive elements"
-            print "the first time it is encountered?"
-            print "----------------------------------------------------------------------------\n\n\n"
-            # no use in continuing
-            return words, dictionary
+		print
+		print dictionary
 
-        if dictionary[c] == ' ' :
-            # the end of a word, append it to the output
-            words.append( lastword )
-            # ... was it in the dictionary?
-            if lastword not in dictionary :
-                # then we must add it now
-                dictionary.append( lastword )
-            # and begin building a new lastword
-            lastword = ""
+		# provide a descriptive error message on a common error in compression
+		if len(dictionary) <= c :
+			print "\n\n\n----------------------------------------------------------------------------"
+			print "Uh-oh.  The compression codes say use the word for code %d" % c
+			print "but the DE-compression dictionary has codes only up to %d right now!" % (len(dictionary)-1,)
+			print
+			print "Did you forget to output a newly discovered word as its primitive elements"
+			print "the first time it is encountered?"
+			print "----------------------------------------------------------------------------\n\n\n"
+			# no use in continuing
+			return words, dictionary
 
-            # Don't forget to emit the whitespace that has triggered this 'lastword logic.'
-            words.append( dictionary[c] )
-        else :
-            # add the character for this code to the current lastword we are building
-            lastword = lastword + dictionary[c]
+		if dictionary[c] == ' ' :
+			# the end of a word, append it to the output
+			words.append( lastword )
+			# ... was it in the dictionary?
+			if lastword not in dictionary :
+				# then we must add it now
+				dictionary.append( lastword )
+			# and begin building a new lastword
+			lastword = ""
+
+			# Don't forget to emit the whitespace that has triggered this 'lastword logic.'
+			words.append( dictionary[c] )
+		else :
+			# add the character for this code to the current lastword we are building
+			lastword = lastword + dictionary[c]
     
     # account for the last word not terminated with a space
     if len( lastword ) > 0 :
