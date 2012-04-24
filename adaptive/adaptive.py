@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 ###
 # Utility functions for adaptive dictionary compression assignment.
 #

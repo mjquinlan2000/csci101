@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python
 from adaptive import Main
 
 
