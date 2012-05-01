@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 ###
 # CSCI101 Assignment:  Monte Carlo creation of Random Points in a Circle
 ###
@@ -29,6 +31,12 @@ subfig.axis('equal')
 # (the 'o' and 'blue' arguments dictate the color and shape of the symbol).
 ###
 
+for a in range(N):
+	theta = random.random()*math.pi*2
+	r = random.random()
+	x = r*math.cos(theta)
+	y = r*math.sin(theta)
+	subfig.plot(x, y, 'o', color='blue')
 
 # show the data --- this should be run *after* the students code has been
 # completed.  Without any student added logic above, all you get is a red
